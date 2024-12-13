@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: RestTemplateDemo
+
+api:
+  pokemon:
+    host: https://api.pokemontcg.io
+    listPokemonCardsPath: /v2/cards/{id}
+    api-key: my-sweet-api-key
